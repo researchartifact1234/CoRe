@@ -1,0 +1,31 @@
+target_var: length 39
+other_vars: 
+  - sb 24
+  - sb 34
+  - sb 38
+  - value 28
+early_return:
+  - 29
+  - 31
+variables: 
+  Null 26:
+    reset: False
+    datadep: Null
+    controldep:
+      - Null 26
+      - value 29
+  value 29:
+    reset: False
+    datadep: Null
+    controldep:
+      - Null 26
+  length 39:
+    datadep: 
+      - length 25
+      - length 39
+    controldep:
+      - value 29
+  length 25:
+    datadep: Null
+    controldep: Null
+  
